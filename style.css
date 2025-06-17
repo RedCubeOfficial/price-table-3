@@ -69,12 +69,15 @@ td{
     line-height: 70px;
     letter-spacing: -1px;
     color: #1E0E62;
-    
+    position: relative;
 }
 .dollar{
     font-family: DM Sans;
     font-weight: 400;
     font-size: 16px;
+    position: absolute;
+    left: 105px;
+    top: 20px;
 }
 .btn{
     width: 230px;
