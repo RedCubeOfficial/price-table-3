@@ -103,10 +103,16 @@ td{
     padding-left: 112px;
 
 }
-.btn:hover{
+.btn-1{
     color: #FFFFFF;
     background-color: #25DAC5;
 }
 td{
     border: 2px solid #EBEAED;
+}
+.btn:hover{
+    box-shadow: 0px 0px 20px -5px rgba(202,87,87,0.62);
+-webkit-box-shadow: 0px 0px 20px -5px rgba(202,87,87,0.62);
+-moz-box-shadow: 0px 0px 20px -5px rgba(202,87,87,0.62);
+transition: all 0.3s;
 }
